@@ -39,3 +39,23 @@ with workspace("ma salle"):
 
 
 ```
+
+lorsque la commande `jenga build` est lancé il y'a une erreur, probablement du au manque de compilateur c++ sur mon pc 
+
+ jenga build         
+
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║                ██╗███████╗███╗   ██╗ ██████╗  █████╗             ║
+║                ██║██╔════╝████╗  ██║██╔════╝ ██╔══██╗            ║
+║                ██║█████╗  ██╔██╗ ██║██║  ███╗███████║            ║
+║           ██   ██║██╔══╝  ██║╚██╗██║██║   ██║██╔══██║            ║
+║           ╚█████╔╝███████╗██║ ╚████║╚██████╔╝██║  ██║            ║
+║            ╚════╝ ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝            ║
+║                                                                  ║
+║             Multi-platform C/C++ Build System v2.8.0             ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Loading workspace...
+Cannot create builder: No suitable toolchain found for Windows x86_64
