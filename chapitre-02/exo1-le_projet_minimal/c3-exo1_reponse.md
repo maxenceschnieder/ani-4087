@@ -87,3 +87,32 @@ Projects Built:  1/1
 Time:           4.07s
 Status:         ✓ SUCCESS
 ════════════════════════════════════════════════════════════════════════════════
+
+
+un fichier json a été créé et voici son contenu 
+
+```json
+{
+    "include": [
+        "**/*.py",
+        "**/*.jenga"
+    ],
+    "exclude": [
+        "Build/**",
+        "Externals/**",
+        ".vscode/**",
+        "**/__pycache__",
+        "**/node_modules"
+    ],
+    "pythonVersion": "3.8",
+    "reportMissingImports": "warning",
+    "reportUndefinedVariable": "warning",
+    "reportWildcardImportFromLibrary": "none",
+    "extraPaths": [
+        "C:/Users/vanelle/Documents/Jenga",
+        ".jenga-typings"
+    ],
+    "_jengaIdeConfigVersion": "efe25356fa2fc443"
+}
+
+```
