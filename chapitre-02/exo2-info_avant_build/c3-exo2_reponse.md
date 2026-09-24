@@ -53,7 +53,4 @@ clang-cross-linux   clang    Linux       x86_64   gnu
 Daemon
 ------------------------------------------------------------
 Status: Not running
-
-
-
-ce quon a
+.
