@@ -40,9 +40,9 @@ with workspace("ma salle"):
 
 ```
 
-lorsque la commande `jenga build` est lancé il y'a une erreur, probablement du au manque de compilateur c++ sur mon pc 
+lorsque la commande `jenga build` est lancé voici le resultat  
 
- jenga build         
+jenga build
 
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
@@ -58,4 +58,32 @@ lorsque la commande `jenga build` est lancé il y'a une erreur, probablement du 
 ╚══════════════════════════════════════════════════════════════════╝
 
 Loading workspace...
-Cannot create builder: No suitable toolchain found for Windows x86_64
+
+Configuration: Debug
+Target:        Windows x86_64
+Toolchain:     clang-mingw
+
+Build Order (1 projects):
+  1. projet salle [CONSOLE_APP]
+
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║  Project: projet salle                                                    Kind: CONSOLE_APP  ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+ℹ Found 1 source file(s)
+✓   [1/1] Compiled: main.cpp
+ℹ Linking...
+✓ Built: Build\Bin\Debug-Windows\projet salle\projet salle.exe
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────┐
+│  ✓ Build Successful                                                             Time: 4.07s  │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+                                BUILD COMPLETED                                 
+════════════════════════════════════════════════════════════════════════════════
+Projects Built:  1/1
+Time:           4.07s
+Status:         ✓ SUCCESS
+════════════════════════════════════════════════════════════════════════════════
