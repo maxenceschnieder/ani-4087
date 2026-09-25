@@ -15,6 +15,8 @@
 - **NKPhysics** : gestion de la physique.
 - **NKCollision** : gestion des collisions.
 - **NKRenderer** : rendu graphique.
+- **NKCore** : fonctionnalités fondamentales du moteur.
+- **NKVFX** : pour gérer les effets visuels du moteur.
 
 
 ### 2. Dépendances dont on peut avoir une idée sans certitude
@@ -26,15 +28,14 @@
 - **NKRHI** : semble être une abstraction permettant au moteur de communiquer avec les API graphiques.
 - **NKAnima** : semble être le système consacré aux animations.
 - **NKSL** : semble être lié à la gestion des shaders ou à un langage de shading.
-- **NKCore** : fonctionnalités fondamentales du moteur.
-- **NKSerialization** : sérialisation des données.
+
+
 
 ### 3. Dépendances dont le rôle n'est pas évident avec le nom seul
 
-Après consultation des fichiers du dépôt, voici leur rôle :
+
 
 - **NKGlad** : fournit le chargement des fonctions OpenGL nécessaires au moteur pour accéder aux fonctionnalités graphiques de l'API.
-- **NKVFX** : fournit les effets visuels du moteur, notamment les systèmes liés aux effets comme l'eau et les particules.
+
 - **NKSerialization** : permet de transformer les données et objets du moteur en une représentation sérialisée et de les reconstruire à partir de celle-ci.
 
-La démonstration `RendererSandbox` utilise cette liste pour déclarer à la fois les bibliothèques à lier avec `links()` et les dépendances du projet avec `dependson()`. 
